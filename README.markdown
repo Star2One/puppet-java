@@ -40,7 +40,7 @@ java
 
 `source`
 源码包的名称。    
-**只支持tar.gz和.gz格式的文件
+**只支持tar.gz和.gz格式的文件**
 
 
 `deploymentdir`
