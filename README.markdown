@@ -21,7 +21,7 @@ java
 
 编辑init.pp文件
 
-`
+```
     java::setup { "example.com-jdk_6u35":
       ensure        => 'present',
       source        => 'jdk-6u35-linux-x64.tar.gz',
@@ -29,31 +29,31 @@ java
       user          => 'example.com',
       pathfile      => '/home/example.com/.bashrc'
     }
-`
+```
 
 #参数说明
 ------
 
 
-####`ensure`
+`ensure`
 
 保持软件包的状态
 
-####`source`
+`source`
 
 源码包的名称。
 ** 只支持tar.gz和.gz格式的文件
 
 
-####`deploymentdir`
+`deploymentdir`
 
 安装目录
 
-####`user`
+`user`
 用户
 
 
-####`pathfile`
+`pathfile`
 更新变量信息
 
 #测试
