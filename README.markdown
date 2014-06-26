@@ -36,17 +36,14 @@ java
 
 
 `ensure`
-
 保持软件包的状态
 
 `source`
-
-源码包的名称。
-** 只支持tar.gz和.gz格式的文件
+源码包的名称。    
+**只支持tar.gz和.gz格式的文件
 
 
 `deploymentdir`
-
 安装目录
 
 `user`
